@@ -1,6 +1,7 @@
+import { useRef } from 'react';
 import Section from '../components/Section';
-import { motion } from 'framer-motion';
-import { Check, MessageSquare, BookOpen, UserCheck, Sparkles } from 'lucide-react';
+import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { Check, MessageSquare, BookOpen, UserCheck, Sparkles, ArrowDown } from 'lucide-react';
 
 const RecommendationCard = ({ icon: Icon, title, desc, impact, index }) => {
   return (
@@ -40,6 +41,9 @@ const RecommendationCard = ({ icon: Icon, title, desc, impact, index }) => {
 };
 
 const Recommendations = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { amount: 0.5 });
+
   const recommendations = [
     {
       icon: MessageSquare,
@@ -68,26 +72,46 @@ const Recommendations = () => {
   ];
 
   return (
-    <Section id="recommendations">
-      <h2 className="text-4xl font-bold mb-12 text-center text-white">
-        Plan d'Action <span className="text-gold-prestige">Stratégique</span>
-      </h2>
-      
-      <motion.div 
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        className="grid md:grid-cols-2 gap-6 w-full max-w-5xl mx-auto"
-      >
-        {recommendations.map((rec, idx) => (
-          <RecommendationCard 
-            key={idx} 
-            index={idx}
-            {...rec} 
-          />
-        ))}
-      </motion.div>
-    </Section>
+    <>
+      <Section id="recommendations">
+        <div ref={ref} className="w-full flex flex-col items-center">
+          <h2 className="text-4xl font-bold mb-12 text-center text-white">
+            Plan d'Action <span className="text-gold-prestige">Stratégique</span>
+          </h2>
+          
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            className="grid md:grid-cols-2 gap-6 w-full max-w-5xl mx-auto"
+          >
+            {recommendations.map((rec, idx) => (
+              <RecommendationCard 
+                key={idx} 
+                index={idx}
+                {...rec} 
+              />
+            ))}
+          </motion.div>
+        </div>
+      </Section>
+
+      <AnimatePresence>
+        {isInView && (
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8, y: 10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.8, y: 10 }}
+            className="fixed bottom-24 right-8 z-40 hidden md:flex flex-col items-end pointer-events-none"
+          >
+            <div className="bg-gold-prestige text-carbon-dark font-bold px-4 py-2 rounded-xl rounded-br-none shadow-[0_0_15px_rgba(212,175,55,0.4)] animate-bounce flex items-center gap-2">
+              <span>Testez-le ici !</span>
+              <ArrowDown size={20} />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 };
 
