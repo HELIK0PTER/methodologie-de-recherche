@@ -80,7 +80,7 @@ Ce guide est structuré pour une présentation fluide entre **Matheus** et **Ray
 
 ### 7. Recommandations & Conclusion
 
-**Intervenant : Matheus & Rayan (Ensemble)**
+**Intervenant : Matheus**
 
 - **Points clés** : Simplification du jargon, parcours guidés, et ton adaptable.
 - **Mot de la fin** : "L'IA ne remplace pas le sommelier, elle le rend accessible à tous, partout, tout le temps."
