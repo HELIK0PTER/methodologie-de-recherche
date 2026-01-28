@@ -70,7 +70,7 @@ const Recommendations = () => {
   return (
     <Section id="recommendations">
       <h2 className="text-4xl font-bold mb-12 text-center text-white">
-        Recommandations <span className="text-gold-prestige">Actionnables</span>
+        Plan d'Action <span className="text-gold-prestige">Stratégique</span>
       </h2>
       
       <motion.div 

@@ -79,7 +79,7 @@
 >   2.  **L'action IA** : Elle vulgarise ("C'est la sensation de structure, un peu râpeuse").
 >   3.  **Le résultat** : L'utilisateur se sent intelligent et légitime -> il achète (+15% panier moyen par confiance accrue).
 
-### 7. Recommandations & Conclusion
+### 7. Plan d'Action & Conclusion
 
 **Intervenant : Matheus**
 

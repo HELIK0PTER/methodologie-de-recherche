@@ -17,7 +17,7 @@ const Navbar = () => {
     { id: 'methodology', label: 'Métho' },
     { id: 'experimentation', label: 'Tests' },
     { id: 'dashboard', label: 'Résultats' },
-    { id: 'recommendations', label: 'Conseils' },
+    { id: 'recommendations', label: 'Actions' },
   ];
 
   useEffect(() => {
