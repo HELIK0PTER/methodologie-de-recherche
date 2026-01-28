@@ -83,5 +83,14 @@
 
 **Intervenant : Matheus**
 
-- **Points clés** : Simplification du jargon, parcours guidés, et ton adaptable.
-- **Mot de la fin** : "L'IA ne remplace pas le sommelier, elle le rend accessible à tous, partout, tout le temps."
+- **L'Apparition** : Laissez les cartes se révéler l'une après l'autre. C'est le moment "Roadmap".
+- **Les 4 Piliers** :
+  1. **Jargon** : On vulgarise.
+  2. **Parcours** : On guide.
+  3. **Ton** : On s'adapte.
+  4. **Réassurance** (Nouveau) : On sécurise l'achat contextuellement.
+
+> 🏁 **Mot de la fin pour le jury**
+>
+> - **Le plan d'action concret** : Vous voyez ces recommandations apparaître : ce ne sont pas juste des pistes, c'est le plan d'action immédiat pour transformer l'expérience client grâce à l'IA.
+> - **L'essence du projet** : "L'IA ne remplace pas le sommelier, elle le rend accessible à tous, partout, tout le temps." (Remerciez l'audience).
