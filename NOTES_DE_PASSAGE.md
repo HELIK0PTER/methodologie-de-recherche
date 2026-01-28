@@ -1,4 +1,3 @@
-
 ## 🎤 Notes de Passage à l'Oral
 
 Ce guide est structuré pour une présentation fluide entre **Matheus** et **Rayan**.
@@ -73,6 +72,7 @@ Ce guide est structuré pour une présentation fluide entre **Matheus** et **Ray
 > 📈 **Explication approfondie pour le jury**
 >
 > - **Pourquoi l'Uplift est plus fort sur Mobile ?** : Sur mobile, l'écran est petit et le catalogue est pénible à filtrer (scroll infini). L'IA agit comme un **raccourci** direct vers le bon produit, d'où une performance accrue (+3.2 vs +2.5).
+> - **La notion de Friction** : C'est tout ce qui ralentit l'achat (complexité du jargon, navigation mobile pénible). Si le point de départ mobile est plus bas (1.2%), c'est parce que la friction y est maximale. L'IA la "gomme" en offrant une réponse directe.
 > - **Matrice d'Impact expliquée** :
 >   1.  **Le frein** : L'utilisateur pose une question technique ("C'est quoi un vin tannique ?").
 >   2.  **L'action IA** : Elle vulgarise ("C'est la sensation de structure, un peu râpeuse").
