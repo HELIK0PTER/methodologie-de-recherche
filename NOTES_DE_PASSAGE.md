@@ -1,8 +1,6 @@
 ## 🎤 Notes de Passage à l'Oral
 
-Ce guide est structuré pour une présentation fluide entre **Matheus** et **Rayan**.
-
-### 1. Introduction & Contexte (Landing)
+### 1. Introduction & Contexte
 
 **Intervenant : Matheus**
 
@@ -10,7 +8,7 @@ Ce guide est structuré pour une présentation fluide entre **Matheus** et **Ray
 - **Le problème** : Un site d'e-commerce de moins de 6 mois fait face à un défi majeur : le manque de confiance et la complexité du jargon pour les nouveaux acheteurs.
 - **La solution** : Le "Sommelier Virtuel" pour humaniser la data et guider l'utilisateur.
 
-### 2. Objectifs & Hypothèses (Dataviz)
+### 2. Objectifs & Hypothèses
 
 **Intervenant : Rayan**
 

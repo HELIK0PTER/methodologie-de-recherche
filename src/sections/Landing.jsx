@@ -35,7 +35,7 @@ const Landing = () => {
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        <span className="text-gray-500 text-sm">Scroll to explore</span>
+        <span className="text-gray-500 text-sm">Appuyez sur espace pour continuer (ou naviguez avec les flèches)</span>
       </motion.div>
     </Section>
   );
