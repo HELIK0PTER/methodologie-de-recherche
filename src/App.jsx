@@ -89,13 +89,12 @@ function App() {
         <Experimentation />
         <Dashboard />
         <Recommendations />
-
-        
-        {/* Footer */}
-        <footer className="py-8 text-center text-gray-500 text-sm border-t border-white/5 bg-black/40 backdrop-blur-md">
-          <p>© 2024 Matheus KOPS GUEDES - IIM - Projet Recherche Appliquée</p>
-        </footer>
       </main>
+
+      {/* Footer */}
+      <footer className="py-8 text-center text-gray-500 text-sm border-t border-white/5 backdrop-blur-md">
+        <p>© 2024 Matheus KOPS GUEDES - IIM - Projet Recherche Appliquée</p>
+      </footer>
 
       <ChatWidget />
     </div>
