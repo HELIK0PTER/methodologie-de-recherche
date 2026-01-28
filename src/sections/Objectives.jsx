@@ -1,5 +1,5 @@
 import Section from '../components/Section';
-import { TrendingUp, MessageCircle, AlertCircle } from 'lucide-react';
+import { TrendingUp, AlertCircle } from 'lucide-react';
 
 const Objectives = () => {
   return (
