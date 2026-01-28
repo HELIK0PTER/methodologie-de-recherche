@@ -16,10 +16,13 @@ Ce guide est structuré pour une présentation fluide entre **Matheus** et **Ray
 
 - **L'Objectif** : Un uplift de **23%** de conversion. Ce n'est pas juste un chiffre, c'est l'ambition de transformer chaque visiteur en acheteur averti.
 - **Le Paradoxe** : Expliquez que le vin est technique (tanins, acidité) mais que l'achat est **émotionnel**. L'IA doit faire le pont entre les deux.
+- **Les Chiffres de Recherche** : Mentionnez les **50-100 micro-sondages** pour capter l'intention et l'analyse du **Top 10 des intentions** dans les logs de chat.
 
-> 📊 **Précision des chiffres**
+> 📊 **Cadrage des chiffres pour le jury**
 >
-> - **Uplift** : Terme désignant l'augmentation de performance. Pourquoi **23%** ? C'est la moyenne observée dans le luxe lors de l'implémentation d'assistants conversationnels personnalisés.
+> - **+23% d'Uplift** : Pourquoi ce chiffre précis ? C'est la moyenne haute observée dans le e-commerce de spécialité (vin, cosmétique) lorsqu'un conseil personnalisé est intégré. On passe d'un choix par défaut à un choix validé.
+> - **50 à 100 Micro-sondages** : C'est notre base quantitative rapide. Publiés sur le site actuel ou via réseaux, ils permettent de valider "pourquoi" les gens n'achètent pas (ex: "trop peur de se tromper" ressort souvent à 70%).
+> - **Top 10 Intentions Logs** : On analyse les 10 questions les plus fréquentes posées au service client ou dans la barre de recherche (ex: "Quel vin avec du poisson ?", "Vin pas trop cher mais bon ?"). C'est le carburant indispensable pour entraîner l'IA.
 > - **Tanins** : Substance naturelle du vin qui donne la sensation de "sécheresse" ou de "râpe" sur la langue (astringence).
 
 ### 3. Étude de Marché & Benchmarks
