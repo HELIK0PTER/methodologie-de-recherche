@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wine-deep: #4A0E0E;
+  --color-gold-prestige: #D4AF37;
+  --color-carbon-dark: #121212;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-carbon-dark text-white font-sans overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-xl shadow-xl;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-gold-prestige to-amber-200;
+}
